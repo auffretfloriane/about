@@ -1,0 +1,59 @@
+:root {
+    --font-heading: 'Abril Fatface', 'Gill Sans MT';
+    --font-body : 'Roboto', 'Gill Sans MT';
+    --color-blue: midnightblue;
+    --color-white: white;
+    --color-grey: rgb(82, 82, 82);
+    --color-bg: var(--color-white);
+    --color-primary: var(--color-blue);
+    }
+h1 {
+    color: var(--color-primary);
+    font-size: 3rem;
+    font-family: var(--font-heading);
+    line-height: 3,625rem;
+}
+h2 {
+    color: var(--color-primary);
+    font-size: 1.5rem;
+    font-family: var(--font-heading);
+}
+body{
+    color: var(--color-grey);
+    font-family: var(--font-body);
+    font-size: 16px;
+    line-height: 20px;
+    margin: 0px;
+}
+a {
+    color: var(--color-grey);
+    padding: 6px;
+}
+a:hover {
+    color: var(--color-primary);
+}
+section {
+    display: block ;
+    padding: 32px;
+    align-content: center;
+}
+.avatar{
+    border-radius: 4px ;
+    width: 3rem ;
+}
+
+header {
+    padding: 32px;
+    margin: 0px;
+}
+
+.try {
+    padding: 48px;
+    margin: 16px;
+    display: inline-flex;
+    border-radius: 8px;
+    background-color: var(--color-white);
+}
+p {
+    padding: 6px;
+}
