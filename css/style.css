@@ -2,10 +2,12 @@
     --font-heading: 'Abril Fatface', 'Gill Sans MT';
     --font-body : 'Roboto', 'Gill Sans MT';
     --color-blue: midnightblue;
+    --color-blue-transparent: rgba(25, 25, 112, 0.5);
     --color-white: white;
     --color-grey: rgb(82, 82, 82);
     --color-bg: var(--color-white);
     --color-primary: var(--color-blue);
+    --color-primary-transparent:var(--color-blue-transparent)
     }
 h1 {
     color: var(--color-primary);
@@ -25,6 +27,7 @@ body{
     line-height: 20px;
     margin: 0px;
 }
+
 a {
     color: var(--color-grey);
     padding: 6px;
@@ -56,4 +59,18 @@ header {
 }
 p {
     padding: 6px;
+}
+
+.background-highlight-primary {
+    background-color: var(--color-primary);
+    display: flex;
+    align-items: center;
+}
+
+.background-highlight-transparent {
+    background-color:var(--color-primary-transparent);
+}
+
+.font-color-reverse {
+    color: var(--color-bg);
 }
